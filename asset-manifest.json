@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/taxants-live/static/css/main.e11dd7cf.chunk.css",
+    "main.css": "/taxants-live/static/css/main.8ed5c3e8.chunk.css",
     "main.js": "/taxants-live/static/js/main.cb14137e.chunk.js",
     "main.js.map": "/taxants-live/static/js/main.cb14137e.chunk.js.map",
     "runtime-main.js": "/taxants-live/static/js/runtime-main.fcc4c5d6.js",
@@ -10,7 +10,7 @@
     "static/js/2.a4742214.chunk.js.map": "/taxants-live/static/js/2.a4742214.chunk.js.map",
     "index.html": "/taxants-live/index.html",
     "static/css/2.57926e29.chunk.css.map": "/taxants-live/static/css/2.57926e29.chunk.css.map",
-    "static/css/main.e11dd7cf.chunk.css.map": "/taxants-live/static/css/main.e11dd7cf.chunk.css.map",
+    "static/css/main.8ed5c3e8.chunk.css.map": "/taxants-live/static/css/main.8ed5c3e8.chunk.css.map",
     "static/js/2.a4742214.chunk.js.LICENSE.txt": "/taxants-live/static/js/2.a4742214.chunk.js.LICENSE.txt",
     "static/media/abc.1bbdbd62.jpg": "/taxants-live/static/media/abc.1bbdbd62.jpg",
     "static/media/App.css": "/taxants-live/static/media/signup.25964293.jpg",
@@ -25,7 +25,7 @@
     "static/js/runtime-main.fcc4c5d6.js",
     "static/css/2.57926e29.chunk.css",
     "static/js/2.a4742214.chunk.js",
-    "static/css/main.e11dd7cf.chunk.css",
+    "static/css/main.8ed5c3e8.chunk.css",
     "static/js/main.cb14137e.chunk.js"
   ]
 }
