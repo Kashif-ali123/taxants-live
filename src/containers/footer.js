@@ -1,0 +1,46 @@
+import React from 'react'
+import Footer from '../components/Footer';
+import Icon from '../components/icons'
+
+export function FooterContainer() {
+    return (
+        <Footer>
+            <Footer.Wrapper>
+            <Footer.Row>
+                <Footer.Column>
+                <Footer.Title>Get Touch</Footer.Title>
+                    <Footer.Link href="/">Home</Footer.Link>
+                    <Footer.Link href="/products">About</Footer.Link>
+                    <Footer.Link href="/contact">Contact</Footer.Link>
+                    <Footer.Link href="/marketing">Terms & Conditions</Footer.Link>
+                    <Footer.Link href="/consulting">Careers</Footer.Link>
+                    <Footer.Link href="/design">Pricing</Footer.Link>
+                    <Footer.Link href="/development">FAQ'S</Footer.Link>
+                    <Footer.Link href="/signup">SignUp</Footer.Link>
+                </Footer.Column>
+                <Footer.Column>
+                <Footer.Title>Services</Footer.Title>
+                    <Footer.Link href="#">Marketing</Footer.Link>
+                    <Footer.Link href="#">Consulting</Footer.Link>
+                    <Footer.Link href="#">Development</Footer.Link>
+                    <Footer.Link href="#">Design</Footer.Link>
+                </Footer.Column>
+                <Footer.Column>
+                <Footer.Title>Contact Us</Footer.Title>
+                    <Footer.Link href="#">United States</Footer.Link>
+                    <Footer.Link href="#">United Kingdom</Footer.Link>
+                    <Footer.Link href="#">Australia</Footer.Link>
+                    <Footer.Link href="#">Support</Footer.Link>
+                </Footer.Column>
+                <Footer.Column>
+                <Footer.Title>Social</Footer.Title>
+                    <Footer.Link href="#"><Icon className="fab fa-facebook-f" />Facebook</Footer.Link>
+                    <Footer.Link href="#"><Icon className="fab fa-instagram" />Instagram</Footer.Link>
+                    <Footer.Link href="#"><Icon className="fab fa-youtube" />Youtube</Footer.Link>
+                    <Footer.Link href="#"><Icon className="fab fa-twitter" />Twitter</Footer.Link>
+                </Footer.Column>
+            </Footer.Row>
+            </Footer.Wrapper>
+        </Footer>
+    )
+}
