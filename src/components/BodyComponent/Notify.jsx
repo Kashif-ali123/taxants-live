@@ -24,7 +24,7 @@ const Notify = () => {
                 <input type="email" name="user_email" style= {{height:"60px"}} className = "form-control" />
                 <label>Message</label>
                 <textarea name="message" rows="4" className= "form-control" />
-                <input type="submit" value="Send" className= "form-control btn btn-primary" style={{marginTop:"30px",marginLeft: "200px",textAlign:"center" , height:"50px"}} />
+                <input type="submit" value="Send" className= "form-control btn btn btn-primary" style={{marginTop:"30px",marginLeft: "200px",textAlign:"center" , height:"50px"}} />
             </form>
         </div>
     )
