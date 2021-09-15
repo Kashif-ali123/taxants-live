@@ -1,0 +1,62 @@
+.custom-card {
+    position: relative;
+    margin-bottom: 20px;
+    margin-top: 40px;
+    /* // box-shadow: 0px 5px 20px rgba(#000000, 0.1); */
+}
+    .card-body {
+      height: 200px;
+      
+    }
+    .card-footer {
+      border: none;
+      background-color: #f4f4f4;
+    }
+    .btn-edit,
+  .btn-delete {
+    opacity: 0;
+    display: none;
+    transition: all 10s;
+    width: 70px;
+    height: 50px;
+    position: absolute;
+    border-radius: 50%;
+    font-size: 24px;
+    
+  }
+  .btn-edit {
+    left: 2%;
+    top: -5%;
+    border-radius: 50%;
+    
+  }
+  .btn-delete {
+    right: 2%;
+    top: -5%;
+    border-radius: 50%;
+
+  }
+  .btn-delete,
+  .btn-edit {
+    display: block;
+    opacity: 1;
+    
+  }
+  .btn {
+    display: inline-flex;
+    align-items: center;
+    border-radius: 50%;
+  }
+  /* theme-colors: (
+  "primary": #fb5607,
+  "dark": #111,
+  "danger": #ffbe0b,
+); */
+/* // $card-border-width: 0; */
+
+/* card-border-color: rgba(#000, 0.05); */
+
+/* @import "~bootstrap/css/bootstrap"; */
+
+
+  
