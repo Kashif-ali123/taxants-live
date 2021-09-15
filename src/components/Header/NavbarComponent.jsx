@@ -28,7 +28,7 @@ export default function NavbarComponent({ handleDrawerToggle }) {
         <Hidden smDown>
           <Box>
             <Notification />
-            <Messages />
+       <Link to="/notify"><Messages /></Link>
             <Profile />
           </Box>
         </Hidden>
