@@ -24,7 +24,7 @@ const PostCard = ({ postItem }) => {
           className="btn btn-danger btn-delete"
           onClick={() => dispatch(deletePost(postItem.id))}
         >
-          <span class="material-icons">delete_outline</span>
+          <span class="material-icons">delete</span>
         </button>
         <div className="card-body">
           <h6 className="text-secondary">{postItem.title}</h6>
