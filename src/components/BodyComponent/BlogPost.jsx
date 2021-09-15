@@ -6,7 +6,7 @@ import Post from "../../components/Posts/Post";
 import UpdatePost from "../../components/Posts/UpdatePost";
 import { Provider } from "react-redux";
 import  store from '../../store';
-import '../../styles/blog.css';
+import './Blog.css';
 
 
 function BlogPost()  {
