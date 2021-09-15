@@ -17,24 +17,23 @@
     opacity: 0;
     display: none;
     transition: all 10s;
-    width: 100px;
-    height: 100px;
+    width: 70px;
+    height: 50px;
     position: absolute;
-    
- 
+  
+    font-size: 24px;
     
   }
   .btn-edit {
     left: 2%;
     top: -5%;
-  
+   
     
   }
   .btn-delete {
     right: 2%;
     top: -5%;
   
-      width: 100px;
 
   }
   .btn-delete,
@@ -46,7 +45,7 @@
   .btn {
     display: inline-flex;
     align-items: center;
-    border-radius: 50%;
+   
   }
   /* theme-colors: (
   "primary": #fb5607,
