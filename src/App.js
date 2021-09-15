@@ -14,7 +14,7 @@ import Marketing from "./pages/Marketing";
 import Products from "./pages/Products";
 import More from "./pages/More";
 import Signup from "./pages/Signup";
-import Dash from "./pages/Dash";
+// import Dash from "./pages/Dash";
 import BlogPost from "./components/BodyComponent/BlogPost";
 // import SignInOutContainer from './containers';
 // import Signup from './components/signup'
@@ -37,7 +37,7 @@ class App extends Component {
           <Route path="/contact" component={Contact}></Route>
           <Route path="/products" component={Products}></Route>
           <Route path="/more" component={More}></Route>
-          <Route path="/dash" component={Dash}></Route>
+//           <Route path="/dash" component={Dash}></Route>
           <Route path="/blog" component={BlogPost}></Route>
           <Route path="/signup" component={Signup}></Route>
           <Route path="/marketing" component={Marketing}></Route>
