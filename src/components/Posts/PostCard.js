@@ -33,7 +33,7 @@ const PostCard = ({ postItem }) => {
         <div className="card-footer">
           <Link to={`/post/${postItem.id}`} className="btn btn-primary">
             <span className="mb-1"> read more</span>
-            <span class="material-icons">keyboard_arrow_right</span>
+            <span class="material-icons"></span>
           </Link>
         </div>
       </div>
