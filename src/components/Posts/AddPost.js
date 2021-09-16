@@ -22,14 +22,19 @@ const AddPost = () => {
     history.push("/");
   };
   return (
-    <div className="container">
-      <div className="py-4">
-        <div className="card shadow">
+    <div className="container border"
+    style={{marginTop:"50px", width:"80%", 
+    backgroundImage:"url('https://image.freepik.com/free-photo/hand-painted-watercolor-background-with-sky-clouds-shape_24972-1095.jpg')",
+    backgroundPosition: "center",
+    backgroundSize:"cover",
+    }}>
+      <div >
+        <div>
           <div className="card-header">Add A Post</div>
           <div className="card-body">
-            <form onSubmit={submitForm}>
+            <form onSubmit={submitForm} style={{width:"20%"}}>
               <div className="form-group">
-                <input
+                <input style={{width:"500px"}}
                   type="text"
                   className="form-control form-control-lg"
                   placeholder="Enter Post Title"
@@ -38,7 +43,7 @@ const AddPost = () => {
                 />
               </div>
               <div className="form-group">
-                <textarea
+                <textarea style={{width:"500px"}}
                   rows="5"
                   className="form-control form-control-lg"
                   placeholder="Enter Post Body Text"
@@ -46,7 +51,7 @@ const AddPost = () => {
                   onChange={(e) => setBody(e.target.value)}
                 ></textarea>
               </div>
-              <button className="btn btn-primary btn-lg">Add New Post</button>
+              <button className="btn btn-primary btn-lg"  style={{width:"500px"}}>Add New Post</button>
             </form>
           </div>
         </div>
