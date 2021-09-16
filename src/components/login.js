@@ -22,6 +22,7 @@ let history = useHistory();
         password: Yup.string().required("Required")
     })
     const onSubmit = (values, props) => {
+        history.push("/dash");
         console.log(values)
         setTimeout(() => {
             props.resetForm()
@@ -55,12 +56,9 @@ let history = useHistory();
                                 }
                                 label="Remember me"
                             />
-                            <Button type='submit' color='primary' variant="contained" disabled={props.isSubmitting}
-                                style={btnstyle} fullWidth onClic>{props.isSubmitting ? "Loading" : "Sign in"}</Button>
-                      <Button onClick={()=>{
-                          history.push("/dash");
-                      }}
-                      >Login </Button>
+                            <Button  type='submit' color='primary' variant="contained" disabled={props.isSubmitting}
+                                style={btnstyle} fullWidth onClick>{props.isSubmitting ? "Loading" : "Sign in"}</Button>
+                     
                         </Form>
                     )}
                 </Formik>
