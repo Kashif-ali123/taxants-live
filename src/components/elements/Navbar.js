@@ -6,7 +6,7 @@ const Navbar = () => {
     <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
       <div className="container">
         <Link class="navbar-brand" to="/">
-          Redux Posts
+           Posts
         </Link>
 
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
@@ -16,11 +16,11 @@ const Navbar = () => {
                 Home
               </a>
             </li> */}
-            <li class="nav-item">
+            {/* <li class="nav-item">
               <a class="nav-link" href="!#">
                 Posts
               </a>
-            </li>
+            </li> */}
             {/* <li class="nav-item">
               <a class="nav-link" href="!#">
                 Contact
